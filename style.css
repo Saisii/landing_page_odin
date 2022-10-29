@@ -43,3 +43,20 @@ body {
 .author {
     align-self: flex-end;
 }
+
+.content_3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue_square {
+    display: flex;
+    flex: .5, 1, auto;
+    background-color: #3882f6;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
