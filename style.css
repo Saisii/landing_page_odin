@@ -168,5 +168,11 @@ button {
 }
 
 .footer {
+    display: flex;
     align-self: center;
+    background-color: #1f2937;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    padding: 50px;
 }
