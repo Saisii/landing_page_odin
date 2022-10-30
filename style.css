@@ -51,6 +51,14 @@ ul {
 .bottom_header {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
+}
+
+.bottom_header_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
 }
 
 .hero_main_text {
@@ -64,14 +72,26 @@ ul {
     color: #e5e7eb;
 }
 
+.bottom_header_right {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
 .content_1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    gap: 16px;
 }
 
 .boxes {
     display: flex;
+    gap: 16px;
 
 }
 
