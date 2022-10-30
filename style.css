@@ -89,6 +89,12 @@ ul {
     gap: 16px;
 }
 
+.info_header_text {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
 .boxes {
     display: flex;
     gap: 16px;
@@ -99,6 +105,11 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+img {
+    border: 8px solid black;
+    border-radius: 25px;
 }
 
 .content_2 {
@@ -130,6 +141,11 @@ ul {
 
 .sign_up_button {
     align-self: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
 
 .footer {
