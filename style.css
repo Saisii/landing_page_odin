@@ -142,12 +142,20 @@ img {
 .blue_square {
     display: flex;
     flex: .5, 1, auto;
+    justify-content: space-around;
     background-color: #3882f6;
+    margin: 100px;
+    width: 100%;
+    min-height: 100px;
+    border-radius: 5px;
 }
 
 .action {
     display: flex;
     flex-direction: column;
+    align-self: center;
+    color: white;
+    font-weight: bold;
 }
 
 .sign_up_button {
